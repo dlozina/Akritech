@@ -14,8 +14,8 @@ const Logo = (props: ILogoProps) => {
 
   return (
     <span className={`text-gray-900 inline-flex items-center ${fontStyle}`}>
-      <Image src={logo} alt="" width={25} height={25} />
-      {AppConfig.site_name}
+      <div><Image src={logo} alt="" width={25} height={25} /></div>
+      <div>{AppConfig.site_name}</div>
     </span>
   );
 };
