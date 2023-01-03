@@ -8,7 +8,8 @@ module.exports = withBundleAnalyzer({
   trailingSlash: true,
   basePath: '',
   images: {
-    unoptimized: true,
+    loader: 'imgix',
+    path: '',
   },
   // The starter code load resources from `public` folder with `router.basePath` in React components.
   // So, the source code is "basePath-ready".
