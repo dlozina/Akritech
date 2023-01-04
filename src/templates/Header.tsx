@@ -25,7 +25,7 @@ const Header = () => (
             <span className="text-primary-500">Akritech</span>
           </>
         }
-        description="A software development and consulting firm. We strive to build beautiful digital experiences."
+        description="A software development and consulting firm. We strive to build performance driven digital experiences."
       />
     </Section>
   </Background>

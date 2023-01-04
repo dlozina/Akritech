@@ -3,11 +3,7 @@ import { Section } from '../layout/Section';
 import { Quote } from './Quote';
 
 const VerticalFeatures = () => (
-  <div id="about">
-  <Section
-    title="About"
-    description="A software development and consulting firm. We strive to build performance driven digital experiences. Besides that, we have great experience in building tools for developers such as SDKs, CLI and other extensions."
-  >
+  <Section>
     <VerticalFeatureRow
       title="Why Akritech?"
       description="We can build various digital products and consider User Experience (UX) and Developer Experience (DX) perspectives. At Akritech, engineers are passionate about the craft. Your problem is not just another job, the goal is always to be proud of the solution."
@@ -24,7 +20,6 @@ const VerticalFeatures = () => (
       reverse
     />
   </Section>
-  </div>
 );
 
 export { VerticalFeatures };
