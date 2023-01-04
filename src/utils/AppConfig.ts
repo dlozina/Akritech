@@ -1,6 +1,6 @@
 export const AppConfig = {
   site_name: 'Akritech',
-  title: 'Akritech home page',
-  description: 'Akritech home page',
+  title: 'Akritech Home Page',
+  description: 'Akritech Home Page',
   locale: 'en',
 };

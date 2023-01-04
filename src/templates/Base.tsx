@@ -3,6 +3,7 @@ import { AppConfig } from '../utils/AppConfig';
 import { About } from './About';
 import { AboveFooter } from './AboveFooter';
 import { Banner } from './Banner';
+import { Contact } from './Contact';
 import { Footer } from './Footer';
 import { Header } from './Header';
 import { VerticalFeatures } from './VerticalFeatures';
@@ -15,6 +16,7 @@ const Base = () => (
     <VerticalFeatures />
     <AboveFooter />
     <Banner />
+    <Contact />
     <Footer />
   </div>
 );
