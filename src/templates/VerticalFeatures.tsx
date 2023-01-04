@@ -1,25 +1,30 @@
 import { VerticalFeatureRow } from '../feature/VerticalFeatureRow';
 import { Section } from '../layout/Section';
+import { Quote } from './Quote';
 
 const VerticalFeatures = () => (
+  <div id="about">
   <Section
-    title="My text 1"
-    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus malesuada nisi tellus, non imperdiet nisi tempor at."
+    title="About"
+    description="A software development and consulting firm. We strive to build performance driven digital experiences. Besides that, we have great experience in building tools for developers such as SDKs, CLI and other extensions."
   >
     <VerticalFeatureRow
-      title="My text 2"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
+      title="Why Akritech?"
+      description="We can build various digital products and consider User Experience (UX) and Developer Experience (DX) perspectives. At Akritech, engineers are passionate about the craft. Your problem is not just another job, the goal is always to be proud of the solution."
       image="/assets/images/feature3.svg"
-      imageAlt="First feature alt text"
+      imageAlt="Why Akritech?"
     />
+    <Quote />
     <VerticalFeatureRow
-      title="My text 3"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
+      title="Code quality matters"
+      description="Great Developer Experience (DX) can save a lot of time and expenses. Great internal DX will create a workplace where developers can thrive, external DX will make the onboarding and integration with your product seamless as possible. 
+      "
       image="/assets/images/feature2.svg"
-      imageAlt="Second feature alt text"
+      imageAlt="Code quality matters"
       reverse
     />
   </Section>
+  </div>
 );
 
 export { VerticalFeatures };
