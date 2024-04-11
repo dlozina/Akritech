@@ -1,0 +1,5 @@
+﻿{
+  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
+  "Domain": "akritech.eu",
+  "Id": "bb4c16ed-9393-485e-bfcc-6f0ef1b13118"
+}
